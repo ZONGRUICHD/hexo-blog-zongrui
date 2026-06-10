@@ -51,3 +51,99 @@
 .markdown-body a:hover {
   color: #d98aa4 !important;
 }
+
+/* ===== Dark Mode ===== */
+
+/* Manual toggle */
+[data-user-color-scheme="dark"] #navbar {
+  background: rgba(31, 49, 68, 0.72) !important;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.28);
+}
+
+[data-user-color-scheme="dark"] #board,
+[data-user-color-scheme="dark"] .widget,
+[data-user-color-scheme="dark"] .note,
+[data-user-color-scheme="dark"] .pagination .page-number,
+[data-user-color-scheme="dark"] .pagination .extend,
+[data-user-color-scheme="dark"] .modal-content,
+[data-user-color-scheme="dark"] .markdown-body table tr:nth-child(2n) {
+  background: rgba(37, 45, 56, 0.96) !important;
+}
+
+[data-user-color-scheme="dark"] #board {
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.28) !important;
+}
+
+[data-user-color-scheme="dark"] .widget,
+[data-user-color-scheme="dark"] .note,
+[data-user-color-scheme="dark"] .modal-content {
+  border: 1px solid rgba(89, 97, 122, 0.5);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+}
+
+[data-user-color-scheme="dark"] .pagination .page-number,
+[data-user-color-scheme="dark"] .pagination .extend {
+  border-color: rgba(89, 97, 122, 0.5) !important;
+}
+
+[data-user-color-scheme="dark"] .header-inner .mask {
+  background-color: rgba(24, 28, 39, 0.4) !important;
+}
+
+[data-user-color-scheme="dark"] .navbar .nav-link:hover,
+[data-user-color-scheme="dark"] .navbar .navbar-brand:hover,
+[data-user-color-scheme="dark"] .index-header a:hover,
+[data-user-color-scheme="dark"] .post-content a:hover,
+[data-user-color-scheme="dark"] .page-content a:hover,
+[data-user-color-scheme="dark"] .about-content a:hover,
+[data-user-color-scheme="dark"] .markdown-body a:hover {
+  color: #f5b4ca !important;
+}
+
+/* System preference */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-user-color-scheme="light"]) #navbar {
+    background: rgba(31, 49, 68, 0.72) !important;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.28);
+  }
+
+  :root:not([data-user-color-scheme="light"]) #board,
+  :root:not([data-user-color-scheme="light"]) .widget,
+  :root:not([data-user-color-scheme="light"]) .note,
+  :root:not([data-user-color-scheme="light"]) .pagination .page-number,
+  :root:not([data-user-color-scheme="light"]) .pagination .extend,
+  :root:not([data-user-color-scheme="light"]) .modal-content,
+  :root:not([data-user-color-scheme="light"]) .markdown-body table tr:nth-child(2n) {
+    background: rgba(37, 45, 56, 0.96) !important;
+  }
+
+  :root:not([data-user-color-scheme="light"]) #board {
+    box-shadow: 0 14px 34px rgba(0, 0, 0, 0.28) !important;
+  }
+
+  :root:not([data-user-color-scheme="light"]) .widget,
+  :root:not([data-user-color-scheme="light"]) .note,
+  :root:not([data-user-color-scheme="light"]) .modal-content {
+    border: 1px solid rgba(89, 97, 122, 0.5);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+  }
+
+  :root:not([data-user-color-scheme="light"]) .pagination .page-number,
+  :root:not([data-user-color-scheme="light"]) .pagination .extend {
+    border-color: rgba(89, 97, 122, 0.5) !important;
+  }
+
+  :root:not([data-user-color-scheme="light"]) .header-inner .mask {
+    background-color: rgba(24, 28, 39, 0.4) !important;
+  }
+
+  :root:not([data-user-color-scheme="light"]) .navbar .nav-link:hover,
+  :root:not([data-user-color-scheme="light"]) .navbar .navbar-brand:hover,
+  :root:not([data-user-color-scheme="light"]) .index-header a:hover,
+  :root:not([data-user-color-scheme="light"]) .post-content a:hover,
+  :root:not([data-user-color-scheme="light"]) .page-content a:hover,
+  :root:not([data-user-color-scheme="light"]) .about-content a:hover,
+  :root:not([data-user-color-scheme="light"]) .markdown-body a:hover {
+    color: #f5b4ca !important;
+  }
+}
