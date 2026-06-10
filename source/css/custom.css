@@ -21,7 +21,7 @@
 
 @font-face {
   font-family: "ZongTech UI";
-  src: url("/fonts/Formula1-Black.ttf") format("truetype");
+  src: url("/fonts/Formula1-Black.woff2") format("woff2");
   font-style: normal;
   font-weight: 900;
   font-display: swap;
