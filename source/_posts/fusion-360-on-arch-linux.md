@@ -25,10 +25,10 @@ categories:
 
 ## 安装
 
-使用社区项目 [Autodesk-Fusion-360-on-Linux](https://github.com/cryinkfly/Autodesk-Fusion-360-on-Linux)：
+使用社区项目 [Autodesk-Fusion-360-on-Linux](https://codeberg.org/cryinkfly/Autodesk-Fusion-360-on-Linux)：
 
 ```bash
-git clone https://github.com/cryinkfly/Autodesk-Fusion-360-on-Linux.git
+git clone https://codeberg.org/cryinkfly/Autodesk-Fusion-360-on-Linux.git
 cd Autodesk-Fusion-360-on-Linux
 chmod +x files/setup/autodesk_fusion_installer_x86-64.sh
 ./files/setup/autodesk_fusion_installer_x86-64.sh --install-fix --default
