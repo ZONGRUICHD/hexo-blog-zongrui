@@ -103,4 +103,4 @@ vless://...
 
 <em>Written By <strong>ZONGRUICHD</strong></em>
 
-<https://github.com/zong1024/VPN-Guide/blob/main/README.md>
+<https://github.com/ZONGRUICHD/VPN-Guide/blob/main/README.md>
