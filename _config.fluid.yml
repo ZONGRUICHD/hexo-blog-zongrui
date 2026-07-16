@@ -530,7 +530,7 @@ index:
 
       # 请求地址
       # Request url
-      url: "/api/codex-quota"
+      url: "https://quota.zongtech.xyz/api/codex-quota"
 
       # 请求方法
       # Request method
